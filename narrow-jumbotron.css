@@ -88,6 +88,12 @@ button {
   border-color: #fff !important;
 }
 
+button:hover{
+  color: #000 !important;
+  background-color: #fff !important;
+
+}
+
 h1 {
   font-family: 'Comfortaa', cursive;
 }
