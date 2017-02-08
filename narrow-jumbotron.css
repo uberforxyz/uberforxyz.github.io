@@ -95,3 +95,11 @@ h1 {
 .nav-item {
   cursor: pointer;
 }
+
+.row > .col-lg-12 {
+  text-align: center !important;
+}
+
+.row > .col-lg-6 {
+  text-align: center !important;
+}

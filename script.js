@@ -34,8 +34,3 @@ function generateUnicorn() {
 function dontsteal(){
   console.log('Don\'t even try to steal our code. It\'s way too advanced.');
 }
-
-function team(){
-  document.getElementById('best-elevator-pitch-in-the-world').innerHTML = '<h1>Is built by a team of highly skilled Venture Capital-backed researchers from the top Ivy league schools in the nation.</p><br /><p>Our approach is data-driven and design-first.</p>'
-
-}
