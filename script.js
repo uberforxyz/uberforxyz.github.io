@@ -15,7 +15,7 @@ function generateUnicorn() {
     'cereals...just cereals', 'washing the dishes', 'arguing with your wife', 'arguing with the neighbor',
     'sending your kids to their rooms', 'ice creams', 'pick-up lines', 'your regrets', 'your lost childhood',
     'photos of your ex', 'snobby art exhibits', 'second cheapest wines on the menu', 'empty toothpaste',
-    'non-creepy dates', 'empty toilet paper', 'ASMR', 'coffee breath', 'Netflix documentaries'
+    'non-creepy dates', 'empty toilet paper', 'ASMR', 'coffee breath', 'Netflix documentaries', 'LinkedIn endorsements'
 ];
   var disruptiveDescriptions = [
     'Think about it about it for a second, let it sink in.',

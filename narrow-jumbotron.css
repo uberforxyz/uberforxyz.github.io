@@ -98,6 +98,11 @@ h1 {
   font-family: 'Comfortaa', cursive;
 }
 
+hr {
+  color: #fff !important;
+  border-bottom: #fff !important;
+}
+
 .nav-item {
   cursor: pointer;
 }
@@ -107,5 +112,9 @@ h1 {
 }
 
 .row > .col-lg-6 {
+  text-align: center !important;
+}
+
+.row > .col-lg-4 {
   text-align: center !important;
 }
