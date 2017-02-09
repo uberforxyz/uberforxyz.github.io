@@ -33,11 +33,25 @@ __   _____  _   _   ____  ____   ___  ____    _    ____  _  __   __
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300|Raleway:200" rel="stylesheet">
     <link rel=icon href=/img/favicon.png>
     <title>Uber for... | Home</title>
-    <body onLoad="dontsteal()">
+    <script>
+    function load() {
+      var loader = document.getElementById("mysterious-loader");
+      var container = document.getElementById("home");
+      setTimeout(function(){
+        loader.style.display = "none";
+        container.style.opacity = 1;
+
+      }, 3000);
+    }
+    </script>
+    <body onLoad="load(); dontsteal();">
+      <div id="mysterious-loader">
+        <img src="/img/loader.gif" alt="">
+      </div>
     <!-- <div class="alert alert-info" role="alert">
       <strong>Shhh!</strong> We are in beta, get ready for the biggest IPO launch party since Friendster.
     </div> -->
-    <div class="container">
+    <div id="home" class="container">
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills float-right">
@@ -64,7 +78,7 @@ __   _____  _   _   ____  ____   ___  ____    _    ____  _  __   __
           <button type="button" onclick="disrupt()" class="btn btn-success">CLICK TO DISRUPT!</button>
         </div>
       </div>
-
+    </div>
       <footer class="footer">
         <p>© In stealth mode since 2017 · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
 
