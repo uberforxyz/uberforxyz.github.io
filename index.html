@@ -37,11 +37,19 @@ __   _____  _   _   ____  ____   ___  ____    _    ____  _  __   __
     function load() {
       var loader = document.getElementById("mysterious-loader");
       var container = document.getElementById("home");
+      var title = document.getElementById("title");
+      var text = document.getElementById("best-elevator-pitch-in-the-world");
+
       setTimeout(function(){
         loader.style.display = "none";
         container.style.opacity = 1;
+      }, 3200);
 
-      }, 3000);
+      setTimeout(function(){
+        title.style.marginTop = 0;
+        text.style.marginTop = 0;
+      }, 3200);
+
     }
     </script>
     <body onLoad="load(); dontsteal();">
@@ -67,7 +75,7 @@ __   _____  _   _   ____  ____   ___  ____    _    ____  _  __   __
       </div>
 
       <div class="jumbotron">
-        <h1 class="display-3">Uber for ...</h1>
+        <h1 id="title" class="display-3">Uber for ...</h1>
         <br />
         <div id="best-elevator-pitch-in-the-world">
           <p class="lead">Let's face it, your startup idea is shitty.</p>
