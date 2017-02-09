@@ -118,3 +118,7 @@ hr {
 .row > .col-lg-4 {
   text-align: center !important;
 }
+
+a:hover {
+  text-decoration: none;
+}
