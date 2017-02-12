@@ -164,3 +164,9 @@ a:hover {
     -ms-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
 }
+
+.footer a {
+  padding-left: 20px;
+  padding-right: 20px;
+
+}

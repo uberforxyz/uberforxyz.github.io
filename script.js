@@ -1,6 +1,6 @@
 function disrupt () {
   document.getElementById('best-elevator-pitch-in-the-world').innerHTML = '<img height="300px" src="./spinner.gif"/><br /><br /><p>Currently analyzing complex data models that you can\'t understand...</p>'
-  setTimeout(function(){ generateUnicorn()}, 4200);
+  setTimeout(function(){ generateUnicorn()}, 2300);
 
 }
 
@@ -15,7 +15,10 @@ function generateUnicorn() {
     'cereals...just cereals', 'washing the dishes', 'arguing with your wife', 'arguing with the neighbor',
     'sending your kids to their rooms', 'ice creams', 'pick-up lines', 'your regrets', 'your lost childhood',
     'photos of your ex', 'snobby art exhibits', 'second cheapest wines on the menu', 'empty toothpaste',
-    'non-creepy dates', 'empty toilet paper', 'ASMR', 'coffee breath', 'Netflix documentaries', 'LinkedIn endorsements'
+    'non-creepy dates', 'empty toilet paper', 'creepy ASMR videos', 'coffee breath', 'Netflix documentaries', 'LinkedIn endorsements',
+    'old waiting room magazines', 'yoga pants', 'skipping Apple\'s product launch queues', 'bags of chips with more than 90% air',
+    'instagram likes', 'your crush\'s beach pictures', 'when you forget to bring your phone to the toilet',
+    'non-chatty Uber drivers'
 ];
   var disruptiveDescriptions = [
     'Think about it about it for a second, let it sink in.',

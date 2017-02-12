@@ -29,37 +29,39 @@ __   _____  _   _   ____  ____   ___  ____    _    ____  _  __   __
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link href="./narrow-jumbotron.css" rel="stylesheet">
+    <link href="../narrow-jumbotron.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300|Raleway:200" rel="stylesheet">
     <link rel=icon href=/img/favicon.png>
-    <title>Uber for... | Home</title>
-    <script>
+    <title>Uber for... | Tech</title>
+    <style>
+      body {
+        background: #000 url("./../img/pompous-background.gif") repeat right top;
+      }
+      .container, .jumbotron, .header, .header nav, h3, ul, li, li a, h1, footer, footer p,
+      footer p a, .jumbotron div, .jumbotron div p{
+        background: none !important;
+      }
+      .jumbotron {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        border-radius: 5px;
+      }
+    </style>
+    <script type="text/javascript">
     function load() {
-      var loader = document.getElementById("mysterious-loader");
-      var container = document.getElementById("home");
       var title = document.getElementById("title");
       var text = document.getElementById("best-elevator-pitch-in-the-world");
+      var container = document.getElementById("home");
 
-      setTimeout(function(){
-        loader.style.display = "none";
         container.style.opacity = 1;
-      }, 700);
-
-      setTimeout(function(){
         title.style.marginTop = 0;
         text.style.marginTop = 0;
-      }, 700);
-
     }
     </script>
     <body onLoad="load(); dontsteal();">
-      <div id="mysterious-loader">
-        <img src="/img/loader.gif" alt="">
-      </div>
     <!-- <div class="alert alert-info" role="alert">
       <strong>Shhh!</strong> We are in beta, get ready for the biggest IPO launch party since Friendster.
     </div> -->
-    <div id="home" class="container">
+    <div class="container">
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills float-right">
@@ -77,20 +79,24 @@ __   _____  _   _   ____  ____   ___  ____    _    ____  _  __   __
         <h3 class="text-muted">🚀💡💩</h3>
       </div>
 
-      <div class="jumbotron">
-        <h1 id="title" class="display-3">Uber for ...</h1>
-        <br />
+      <div  id="home" class="jumbotron">
+        <h1 id="title" class="display-3">Our Technology</h1>
         <div id="best-elevator-pitch-in-the-world">
-          <p class="lead">Let's face it, your startup idea is shitty.</p>
-          <p class="lead">So we have developed disruptive technology that let's you find your next startup unicorn.
-              "Uber For..." is an AI-powered assistant that leverages the power of leading machine-learning models along with millions of big data venture algorithms and shares the metadata on decentralized Blockchain ledgers.</p>
-          <p class="lead">If you did not understand this elevator pitch, you're an idiot.</p>
+          <br>
+          <p class="lead">The power to change the world is now in your hands.</p>
+          <p class="lead">The disrutive AI technology behind "Uber for..." is based on the deep analysis
+            of millions of data sets that range from world economy to the human behavior of creepy
+            guys in nightclubs.</p>
+            <p class="lead">Our powerful algorithms determine the best venture ideas for you to pursue
+              based on data correlation of multiple success factors.</p>
+          <p class="lead">The "Uber for..." technology enables anyone to take on the world's
+            most critical challenges, like when your Amazon package is late.</p>
           <hr>
-          <button type="button" onclick="disrupt()" class="btn btn-success">CLICK TO DISRUPT!</button>
         </div>
       </div>
+
       <footer class="footer">
-        <p>© In stealth mode since 2017 · <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">No, we're not hiring</a></p>
+        <p>© In stealth mode since 2017 - <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">No, we're not hiring</a></p>
       </footer>
     </div>
 
@@ -98,7 +104,7 @@ __   _____  _   _   ____  ____   ___  ____    _    ____  _  __   __
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
+    <script src="../script.js"></script>
     <!--Start of Zendesk Chat Script-->
     <script type="text/javascript">
     window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
